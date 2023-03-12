@@ -20,11 +20,18 @@
 
 <h3> ➢ Outras informações </h3>
 <ul>
-  <li> Status: <em>Desenvolvendo</em>
-  <li> Linguagens utilizadas: <br>
-    <div style="display: inline-block; margin-top: 5px; text-align: center;">
+  <li> <strong>Status:</strong> <em>Desenvolvendo</em>
+  <li> <strong>Linguagens utilizadas:</strong> <br>
+    <div style="display: inline-block;">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" height="40" />
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" height="40" />
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" width="40" height="40"/>
     </div>
+  <li>
+  <li> <strong>Conhecimentos aplicados:</strong>
+  <ul>
+    <li> <em>CSS GRID</em>
+    <li> <em>Media Queries</em>
+    <li> <em>JavaScript DOM</em>
+  </ul>
 </ul>
