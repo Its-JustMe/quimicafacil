@@ -27,7 +27,6 @@
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" height="40" />
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" width="40" height="40"/>
     </div>
-  <li>
   <li> <strong>Conhecimentos aplicados:</strong>
   <ul>
     <li> <em>CSS GRID</em>
