@@ -1,0 +1,209 @@
+/*Declarando as variáveis*/
+:root {
+    --gradient-green: linear-gradient(to right, #228054, #16527a);
+    --gradient-green-bottom: linear-gradient(to bottom, #228046, #0d476d);
+    --primary-color: #fff;
+    --secondary-color: #000;
+    --tertiary-color: #0f0f0f;
+    --highlight-text: #48b189;
+    --default-font: Typo Formal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--secondary-color);
+    font-family: var(--default-font);
+    color: var(--primary-color);
+}
+
+/*Tirando o display do ícone Menu Hamburguer*/
+.menu-hamburguer {
+    display: none;
+}
+
+.logotipo {
+    width: fit-content;
+    height: fit-content;
+}
+.logotipo > h1 {
+    font-size: 30px;
+}
+
+header {
+    background: var(--secondary-color);
+    position: fixed;
+    width: 100%;
+    height: 85px;
+    padding: 1em;
+    border-bottom: 3px solid transparent;
+    border-image: var(--gradient-green) 1;
+}
+.logo {
+    width: 30px;
+    height: auto;
+}
+.logo-container > p {
+    color: var(--primary-color);
+}
+
+nav.menu {
+    transform: translateX(0);
+}
+ul.menu-items {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    column-gap: 1em;
+    margin-left: 10px;
+    width: 600px;
+}
+li.item {
+    width: fit-content;
+    position: relative;
+    font-size: 26px;
+    text-align: center;
+}
+
+/* Classe para aplicar cor gradiente nos textos*/
+.gradient-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: var(--gradient-green);
+}
+
+div.container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    padding: 8px;
+}
+li.item::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: var(--gradient-green);
+    transition: width .3s ease;
+}
+li.item:hover::after {
+    width: 100%;
+}
+
+div.content-container {
+    margin-top: 5em;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+aside.aside-temas {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+    background-color: var(--tertiary-color);
+    padding: 1em;
+    padding-top: 1.5em;
+}
+img.icon {
+    max-width: 120px;
+    min-width: 90px;
+    height: auto;
+    background: var(--gradient-green);
+    border-radius: 3px;
+    box-shadow: -4px 4px 16px #222;
+    cursor: pointer;
+    transition: background .8s, transform .5s;
+}
+img.icon:hover {
+    transform: translateY(-5px);
+    background: #48b189;
+}
+aside.aside-livros {
+    background: var(--tertiary-color);
+    padding-top: 1.5em;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+main {
+    min-width: 350px;
+    max-width: 700px;
+    margin: auto;
+    padding-top: 1.5em;
+}
+
+h1.titulo {
+    font-size: 60px;
+    text-align: left;
+    text-transform: uppercase;
+}
+section {
+    padding: 2px;
+}
+article.texto {
+    margin: auto;
+    display: grid;
+    grid-template-rows: repeat(5, auto);
+    grid-template-columns: 100%;
+    row-gap: 1em;
+}
+article.texto > p {
+    font-size: 22px;
+}
+
+table#tabela, tr, td {
+    border: 2px solid var(--primary-color);
+    border-image: var(--gradient-green) 1;
+    margin: auto;
+}
+tr, td {
+    padding: 4px;
+    font-size: 22px;
+    text-align: center;
+}
+.titulo-celula {
+    background: var(--gradient-green);
+    color: var(--secondary-color);
+    text-align: center;
+}
+.img-container {
+    width: auto;
+    margin: auto;
+}
+.img-container > img {
+    max-width: 400px;
+    min-width: 250px;
+    height: auto;
+    border-radius: 5px;
+}
+.container-livro > img {
+    max-width: 200px;
+    max-height: 300px;
+    margin: auto;
+    cursor: pointer;
+}
+
+strong {
+    color: var(--highlight-text);
+}
+
+footer.rodape {
+    background: var(--gradient-green);
+    height: 2em;
+    display: grid;
+    place-items: center;
+}
+footer.rodape > p {
+    font-size: 20px;
+    max-width: 100%;
+    min-width: 350px;
+    color: var(--secondary-color);
+}
