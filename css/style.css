@@ -179,7 +179,7 @@ tr, td {
     margin: auto;
 }
 .img-container > img {
-    max-width: 400px;
+    max-width: 350px;
     min-width: 250px;
     height: auto;
     border-radius: 5px;
