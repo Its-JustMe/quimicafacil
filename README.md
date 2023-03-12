@@ -15,5 +15,5 @@
   moderno e elegante para a página, algo que não estou muito acostumado a fazer.
 </p>
 <p>
-  Você pode acessar o site clicando neste link:
+  Você pode acessar o site clicando neste link: https://quimicafacil.vercel.app
 </p>
