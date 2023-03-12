@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--Meta Tags-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Links: CSS-->
+    <link rel="stylesheet" href="../css/reset.css" type="text/css">
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <link rel="stylesheet" href="../css/animation.css" type="text/css">
+    <link rel="stylesheet" href="../css/media.css" type="text/css">
+    <!--Favicon-->
+    <link rel="shortcut icon" href="../imgs/favicon.png" type="image/x-icon">
+
+    <title>O que é mol - QuímicaFácil</title>
+</head>
+<body>
+    <header>
+        <!--Container de todos os elementos do Header-->
+        <div class="container">
+
+            <!--Botão do Menu Hamburguer-->
+            <div class="menu-hamburguer" data-animar="btn">
+                <div class="line" data-animar="top"></div>
+                <div class="line" data-animar="left"></div>
+                <div class="line" data-animar="right"></div>
+            </div>
+
+            <!--Menu-->
+            <nav class="menu" data-animar="menu">
+
+                <ul class="menu-items">
+
+                    <li class="gradient-text item">
+                        <a href="">Home</a>
+                    </li>
+                    <li class="gradient-text item">
+                        <a href="">Conteúdos</a>
+                    </li>
+                    <li class="gradient-text item">
+                        <a href="">Exercícios</a>
+                    </li>
+                    <li class="gradient-text item">
+                        <a href="">Sobre Nós</a>
+                    </li>
+
+                </ul>
+            </nav>
+
+            <!--Nome do projeto-->
+            <div class="logotipo">
+                <h1>
+                    <span style="color: var(--highlight-text);">Química</span>Fácil
+                </h1>
+            </div>
+        </div>
+
+    </header>
+    <!--Conteiner dos conteúdos da página-->
+    <div class="content-container">
+        <!--Aside 1-->
+        <aside class="aside-temas">
+            <img src="../imgs/atomo.svg" class="icon" alt="Figura de um átomo">
+            <img src="../imgs/formula.png" class="icon" alt="Figura de uma fórmula">
+            <img src="../imgs/cientista.png" class="icon" alt="Figura de um químico">
+            <img src="../imgs/nuclear.png" class="icon" alt="Símbolo de radioatividade">
+        </aside>
+
+        <!--Conteúdo principal-->
+        <main>
+            <section class="conteudo">
+
+                <article class="texto">
+
+                    <h1 class="titulo gradient-text">
+                        O que é mol?
+                    </h1>
+                    <p>
+                        O termo <strong>mol</strong>
+                        trata-se de uma unidade de medida utilizada
+                        para expressar massa, volume, número de átomos
+                        ou moléculas de diferentes matérias microscópicas;
+                    </p>
+                    <div class="img-container">
+                        <img src="../imgs/mol.webp" alt="Balões com exemplos de componentes molares de diferentes substâncias">
+                    </div>
+                    <p>
+                        <strong>Mol</strong> é uma unidade de medida utilizada para expressar
+                        a quantidade de matéria microscópica, como átomos e
+                        moléculas; É um termo que provém do latim mole, que
+                        significa quantidade, e foi proposto pela primeira
+                        vez em 1896 pelo químico Wilhem Ostwald; Porém, foi
+                        Amedeo Avogadro que sugeriu, em 1811, que a mesma
+                        quantidade de matérias diferentes apresentaria a
+                        mesma quantidade de moléculas, o que foi chamado de
+                        Constante de Avogadro;
+                    </p>
+                    <p>
+                        Apenas no século XX, após os estudos do químico
+                        Frances Jean Baptiste Perrin, é que os cientistas
+                        conseguiram determinar qual é a quantidade de
+                        matéria presente em um mol, que é: <br>
+                        <strong>6,02 x 10²³ entidades</strong>
+                    </p>
+                    <p>
+                        A partir desse conhecimento, foi possível determinar 
+                        a quantidade em um mol de qualquer matéria ou 
+                        componente do átomo (como elétrons, prótons e 
+                        nêutrons); Veja os casos a seguir:
+                    </p>
+
+                    <!--Criando uma tabela-->
+                    <div class="table-container">
+                        <table id="tabela">
+                            <tr>
+                                <td class="titulo-celula">
+                                    substância
+                                </td>
+                                <td class="titulo-celula">
+                                    n° de mol
+                                </td>
+                                <td class="titulo-celula">
+                                    n° de moléculas
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="informacao">
+                                    Feijão
+                                </td>
+                                <td class="informacao">
+                                    1 mol
+                                </td>
+                                <td class="informacao">
+                                    6,02 x 10²³ grãos de feijão
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="informacao">
+                                    H2O
+                                </td>
+                                <td class="informacao">
+                                    1 mol
+                                </td>
+                                <td class="informacao">
+                                    6,02 x 10²³ moléculas de H2O
+                                </td>
+                                <tr>
+                                    <td class="informacao">
+                                        CO2
+                                    </td>
+                                    <td class="informacao">
+                                        1 mol
+                                    </td>
+                                    <td class="informacao">
+                                        6,02 x 10²³ moléculas de CO2
+                                    </td>
+                                </tr>
+                            </tr>
+                        </table>
+
+                    </div>
+                </article>
+            </section>
+        </main>
+
+        <!--Aside 2-->
+        <aside class="aside-livros">
+
+            <h2 class="gradient-text">Livros Recomendados</h2>
+
+            <div class="container-livro">
+                <img src="../imgs/livro.jpg" alt="Livro Química Para Leigos">
+                <h3>Fundamentos de Química Analítica</h3>
+            </div>
+
+        </aside>
+    </div>
+
+    <!--Rodapé-->
+    <footer class="rodape">
+        <p>Feito por Arthur Santos; Todos os direitos reservados</p>
+    </footer>
+
+    <!--Script-->
+    <script charset="UTF-8" src="../js/index.js"></script>
+</body>
+</html>
