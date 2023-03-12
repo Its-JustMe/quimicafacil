@@ -30,6 +30,8 @@
   <li> <strong>Conhecimentos aplicados:</strong>
   <ul>
     <li> <em>CSS GRID</em>
+    <li> <em>Animações com CSS </em>
+    <li> <em>CSS Custom Properties</em>
     <li> <em>Media Queries</em>
     <li> <em>JavaScript DOM</em>
   </ul>
