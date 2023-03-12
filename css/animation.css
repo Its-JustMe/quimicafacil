@@ -1,0 +1,62 @@
+/*Aplicando efeito de transição para todos
+os seletores da animação*/
+[data-animar] {
+    transition-duration: .5s;
+}
+  
+/*Configurando cada elemento*/
+[data-animar="btn"].animate {
+    height: auto;
+    padding: .3em;
+}
+[data-animar="left"].animate {
+    animation: hamburguer .5s;
+    transform: translateY(6px) rotate(30deg);
+}
+[data-animar="top"].animate {
+    display: none;
+}
+[data-animar="right"].animate {
+    animation: hamburguer .5s;
+    transform: translateY(-6px) rotate(-30deg);
+}
+  
+.menu {
+    overflow: hidden;
+}
+  
+[data-animar="menu"].animate.out {
+    animation: hide .5s ease-in-out;
+    transform: translateX(-100%);
+}
+    
+[data-animar="menu"].animate {
+    animation: show .5s ease-in-out;
+    display: grid;
+    transform: translateX(0%);
+    transition: transform .5s ease-in-out;
+}
+  
+/*Animação do Ícone Menu-Hamburguer*/
+@keyframes hamburguer {
+    from {
+      transform: translateY(0px) rotate(0deg);
+    }
+}
+  
+@keyframes show {
+    from {
+      transform: translateX(-100%);
+    } 
+    to {
+      transform: translateX(0%);
+    }
+}
+@keyframes hide {
+    from {
+      transform: translateX(0%);
+    } 
+    to {
+      transform: translateX(-100%);
+    }
+}
