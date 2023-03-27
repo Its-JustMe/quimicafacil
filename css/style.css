@@ -147,7 +147,7 @@ h1.titulo {
     color: var(--secondary-color);
     text-transform: uppercase;
     background-image: var(--gradient-green);
-    padding: .5em;
+    padding: .3em;
 }
 section {
     padding: 2px;
