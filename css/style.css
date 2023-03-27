@@ -142,10 +142,12 @@ main {
 
 h1.titulo {
     font-size: 60px;
-    text-align: left;
+    border-radius: 5px;
+    text-align: right;
     color: var(--secondary-color);
     text-transform: uppercase;
     background-image: var(--gradient-green);
+    padding: .5em;
 }
 section {
     padding: 2px;
