@@ -122,7 +122,7 @@ img.icon {
 }
 img.icon:hover {
     transform: translateY(-5px);
-    background: #48b189;
+    background: #228054;
 }
 aside.aside-livros {
     background: var(--tertiary-color);
