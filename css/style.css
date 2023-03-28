@@ -143,7 +143,7 @@ main {
 h1.titulo {
     font-size: 60px;
     border-radius: 5px;
-    text-align: right;
+    text-align: left;
     color: var(--secondary-color);
     text-transform: uppercase;
     background-image: var(--gradient-green);
