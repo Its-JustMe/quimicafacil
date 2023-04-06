@@ -141,7 +141,7 @@ main {
     padding-top: 1.5em;
 }
 
-h1.titulo {
+.titulo {
     font-size: 60px;
     border-radius: 5px;
     text-align: left;
