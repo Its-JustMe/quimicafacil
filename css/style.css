@@ -28,7 +28,7 @@ body {
     width: fit-content;
     height: fit-content;
 }
-.logotipo > h1 {
+.logotipo > p {
     font-size: 30px;
 }
 
