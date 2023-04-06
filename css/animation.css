@@ -10,14 +10,14 @@ os seletores da animação*/
     padding: .3em;
 }
 [data-animar="left"].animate {
-    animation: hamburguer .5s;
+    animation: hamburguer .5s linear;
     transform: translateY(6px) rotate(30deg);
 }
 [data-animar="top"].animate {
     display: none;
 }
 [data-animar="right"].animate {
-    animation: hamburguer .5s;
+    animation: hamburguer .5s linear;
     transform: translateY(-6px) rotate(-30deg);
 }
   
@@ -26,15 +26,15 @@ os seletores da animação*/
 }
   
 [data-animar="menu"].animate.out {
-    animation: hide .5s ease-in-out;
+    animation: hide .5s linear;
     transform: translateX(-100%);
 }
     
 [data-animar="menu"].animate {
-    animation: show .5s ease-in-out;
+    animation: show .5s linear;
     display: grid;
     transform: translateX(0%);
-    transition: transform .5s ease-in-out;
+    transition: transform .5s linear;
 }
   
 /*Animação do Ícone Menu-Hamburguer*/
